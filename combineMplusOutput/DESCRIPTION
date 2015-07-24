@@ -1,0 +1,12 @@
+Package: combineMplusOutput
+Type: Package
+Title: Reads/parses Mplus output files and returns output across multiple files in a single object
+Version: 0.0.1
+Date: 2015-07-24
+Authors@R: person("Billy", "Buchanan", email = "William.Buchanan@mpls.k12.mn.us",
+            role = c("aut", "cre"))
+Description: Options to read Mplus output/input files into an R object by providing a root directory and file extension.  Used during the post-processing of results for the Meta-Matters Capstone Report Group of the fifth cohort of the Strategic Data Project Fellowship program.
+License: GPL
+LazyData: TRUE
+Depends: plyr
+Suggests: rhdf5, doMC
